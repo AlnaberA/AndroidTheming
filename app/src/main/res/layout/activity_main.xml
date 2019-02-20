@@ -21,7 +21,8 @@
             android:layout_marginRight="10dp"
             app:cardCornerRadius="4dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toTopOf="parent"
+            app:cardBackgroundColor="?attr/cardbackground">
 
 
             <LinearLayout
@@ -60,25 +61,69 @@
             android:layout_marginRight="10dp"
             app:cardCornerRadius="4dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toTopOf="parent"
+            app:cardBackgroundColor="?attr/cardbackground">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
-
+                android:orientation="vertical"
+                android:padding="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/componentsTitle"
+                    android:textColor="?attr/textcolor"
+                    android:textStyle="bold"/>
                 <Button
                     android:id="@+id/button"
                     android:layout_width="100sp"
                     android:layout_height="wrap_content"
                     android:text="Button"
-                    android:buttonTint="?attr/tintcolor"/>
+                    android:background="?attr/buttoncolor"
+                    android:textColor="?attr/buttonTextColor"/>
 
                 <RadioButton
                     android:id="@+id/radioButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="RadioButton" />
+                    android:text="RadioButton"
+                    android:textColor="?attr/textcolor"
+                    android:buttonTint="?attr/tintcolor"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:cardBackgroundColor="?attr/cardbackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/switch_themes_title"
+                    android:textColor="?attr/textcolor"
+                    android:textStyle="bold"/>
+                <Switch
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Night Mode"
+                    android:textColor="?attr/textcolor"/>
+
             </LinearLayout>
         </android.support.v7.widget.CardView>
     </LinearLayout>

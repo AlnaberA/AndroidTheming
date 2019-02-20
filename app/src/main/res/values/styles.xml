@@ -12,6 +12,7 @@
         <item name="textcolor">#000000</item>
         <item name="tintcolor">#000000</item>
         <item name="buttoncolor">#2196F3</item>
+        <item name="buttonTextColor">#131212</item>
     </style>
 
     <!-- Dark/Night Mode theme. -->
@@ -25,6 +26,7 @@
         <item name="textcolor">#FFFFFF</item>
         <item name="tintcolor">#ffffff</item>
         <item name="buttoncolor">#2196F3</item>
+        <item name="buttonTextColor">#FEFFFF</item>
     </style>
 
 </resources>
