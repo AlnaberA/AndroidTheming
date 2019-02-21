@@ -21,7 +21,7 @@
         <item name="colorPrimary">#1C1D1F</item>
         <item name="colorPrimaryDark">#000000</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="backgroundcolor">#E9E0E0</item>
+        <item name="backgroundcolor">#1F1E1E</item>
         <item name="cardbackground">#272424</item>
         <item name="textcolor">#FFFFFF</item>
         <item name="tintcolor">#ffffff</item>
